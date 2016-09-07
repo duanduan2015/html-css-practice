@@ -11,7 +11,7 @@ h1 {
     margin-left: 10px;
 }
 .large_size {
-    font-size: 55px;
+    font-size: 52px;
     line-height: 20px;
 }
 .medium_size {
@@ -39,29 +39,35 @@ p {
     color: black;
 }
 .red {
-    color: #b00020; 
+    color: rgb(199, 68, 81);
 }
 .bold {
     font-weight: bold;
+}
+.dotted {    
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
 }
 .underline {
     text-decoration: underline;
 }
 .normal {
-    line-height: 150%;
+    line-height: 130%;
     font-weight: normal;
     font-size: 14px;
     color: black;
 }
 
 .absolute2:hover .red{
-    color: yellow;
+    text-shadow: 0px 0px 2px black;
+    color: rgb(247, 207, 116);
 }
 .absolute2:hover .normal{
     color: white;
 }
 .absolute1:hover .red{
-    color: yellow;
+    text-shadow: 0px 0px 2px black;
+    color: rgb(247, 207, 116);
 }
 .absolute1:hover .normal{
     color: white;
@@ -87,15 +93,41 @@ p {
 .leftPadding {
     padding-left: 40px;
 }
+div.facebook:hover {
+    background-color: rgb(199, 68, 81);
+    color: white;
+}
+div.twitter:hover {
+    background-color: rgb(199, 68, 81);
+    color: white;
+}
 .facebook {
+    padding-top: 2px;
+    padding-bottom: 3px;
+    line-height: 130%;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.facebookimg {
     float:left;
-    padding-top: 6px;
+    padding-top: 2px;
     padding-right: 5px;
+    padding-bottom: 5px;
 }
 .twitter {
+    padding-top: 3px;
+    padding-right: 50px;
+    padding-bottom: 2px;
+    line-height: 130%;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.twitterimg {
     float:left;
-    padding-top: 6px;
+    padding-top: 2px;
     padding-right: 5px;
+    padding-bottom: 15px;
 }
 .avatar {
     float: right;
@@ -106,10 +138,11 @@ p {
     border-radius: 1px;
     border-width: 1px;
     position: relative;
-    text-align: right;
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 5px;
+    margin-left: 0px;
+    padding: 0px;
 }
 table {
     border: 0px solid black;
@@ -216,7 +249,7 @@ th {
     top: 20px;
     bottom: 40px;
     right: 5px;
-    left: 50px;
+    left: 60px;
     background-color: white;
 }
 .absolute2 {
@@ -225,7 +258,7 @@ th {
     width: 90%;
     bottom: 40px;
     right: 5px;
-    left: 50px;
+    left: 60px;
     top: 180px;
     background-color: white;
 }
@@ -273,26 +306,26 @@ a {
     color: black;
 }
 .absolute1:hover {
-    background-color: #b00020;
+    background-color: rgb(199, 68, 81);
     font-color: white;
 }
 .absolute2:hover {
-    background-color: #b00020;
+    background-color: rgb(199, 68, 81);
     color: white;
 }
 a:hover {
-    background-color: #b00020;
+    background-color: rgb(199, 68, 81);
     border-radius: 0px;
     height: 14px;
     color: white;
 }
 li a:hover {
-    background-color: #b00020;
+    background-color: rgb(199, 68, 81);
     border-radius: 3px 0px 0px 3px;
     height: 14px;
 }
 .active {
-    background-color: #b00020;
+    background-color: rgb(199, 68, 81);
     border-radius: 3px 0px 0px 3px;
     height: 14px;
     width:65px;
